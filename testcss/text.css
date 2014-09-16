@@ -1,0 +1,61 @@
+/* 
+  #Alerts
+  Standard Alert
+````
+<div class="alert" href="#">alert</div>
+````
+*/
+div.alert {
+	padding: 20px;
+	display: block;
+	width:100%;
+	min-height: 50px;
+	padding: 10px;
+	border: solid 1px black;
+	text-align: center;
+}
+
+/* 
+ 
+  Danger alert for bad stuff
+````
+<div class="alert alert-danger" href="#">alert</div>
+````
+*/
+div.alert-danger {
+	background: purple;
+}
+
+/* 
+  Warning alert for less bad stuff
+````
+<div class="alert alert-warning" href="#">alert</div>
+````
+*/
+
+div.alert-warning {
+	background: yellow;s
+}
+
+/* 
+  Great alert for good stuff.
+````
+<div class="alert alert-success" href="#">alert</div>
+````
+*/
+div.alert-success {
+	background: green;
+}
+
+
+/* 
+   #Icons
+  this is a good icon for lots of icon use
+````
+<div class="icon-heart" href="#">alert</div>
+````
+*/
+.icon-heart:before {
+	content: "&#9825";
+	color: blue;
+}

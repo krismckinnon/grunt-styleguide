@@ -1,0 +1,61 @@
+// Buttons
+//
+// A majority of buttons in the site are built from the same base class.
+// 
+// Markup:
+// <a href="#" class="c-button-add">Link Button</a>
+// 
+// :hover             - Indicate that the button is the primary feature of this form.
+//
+// Styleguide 1.1
+
+.c-button-add {
+    font-family: $themefont;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: $bright-color;
+    border: 1px solid adjust-lightness($bright-color, 35);
+    background-color: adjust-lightness($bright-color, 38);
+    display: inline-block;
+    position: relative;
+    margin:0;
+    text-transform: capitalize;
+    padding: 0.3em 0.75em;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.875em;
+
+    i {font-size: 0.875em;}
+
+    &:hover {
+        background-color: adjust-lightness($bright-color, 10);
+        color: white;
+    }
+
+    &.button { width: 100%;}
+}
+
+
+.c-button-white {
+    height: 2.3em;
+    background-color: white;
+    padding: 0.4em 0.4em 0.1em 0.4em;
+    border: 1px solid adjust-lightness($bright-color, 35);
+
+    &:hover {
+        color: $bright-color;
+        border: 1px solid white;
+        background-color: adjust-lightness($bright-color, 35);
+    }
+}
+
+.c-button-delete {
+    margin-top: 1em;
+    font-size: 90%;
+    padding-left: 0.25em;
+    
+    .aligned-left { 
+      margin-right: 3px;
+    }
+  }
